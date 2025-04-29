@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [This repo](https://github.com/Sir-M4kU/blog-preview-card)
-- Live Site URL: [Blog Preview Card](https://blog-preview-card-5tac.onrender.com)
+- Live Site URL: [Blog Preview Card](https://blog-preview-card-8e4.pages.dev/)
 
 ## My process
 
