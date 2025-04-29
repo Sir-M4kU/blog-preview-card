@@ -7,54 +7,53 @@ import userImage from "../assets/userpic.png";
 ---
 
 <Layout>
-	<main class="bg-mustard-yellow grid h-full place-items-center">
-		<section
-			id="blog-preview-card"
-			class="group max-w-[327px] cursor-pointer space-y-6 rounded-[20px] border border-black bg-white p-6 lg:max-w-[384px]"
-		>
-			<header role="img">
-				<BlogImage
-					class="h-auto w-[279px] rounded-[10px] lg:h-[200px] lg:w-full"
-					alt="Blog Image"
-					name="Blog Image"
-				/>
-			</header>
+  <main class="bg-mustard-yellow grid h-full place-items-center">
+    <section
+      id="blog-preview-card"
+      class="group max-w-[327px] cursor-pointer space-y-6 rounded-[20px] border border-black bg-white p-6 lg:max-w-[384px]"
+    >
+      <header role="img">
+        <BlogImage
+          class="h-auto w-[279px] rounded-[10px] lg:h-[200px] lg:w-full"
+          name="Blog Image"
+        />
+      </header>
 
-			<main class="space-y-3" role="article">
-				<p
-					class="bg-mustard-yellow text-preset-1 lg:text-preset-3-bold w-fit rounded-[4px] px-3 py-1 text-[12px]"
-				>
-					Learning
-				</p>
+      <main class="space-y-3" role="article">
+        <p
+          class="bg-mustard-yellow text-preset-1 lg:text-preset-3-bold w-fit rounded-[4px] px-3 py-1 text-[12px]"
+        >
+          Learning
+        </p>
 
-				<p class="text-preset-2 lg:text-preset-3 text-[12px]">
-					Published 21 Dec 2023
-				</p>
+        <p class="text-preset-2 lg:text-preset-3 text-[12px]">
+          Published 21 Dec 2023
+        </p>
 
-				<h1
-					class="text-preset-1 lg:text-preset-1 group-hover:text-mustard-yellow text-[20px] transition-colors"
-				>
-					HTML & CSS foundations
-				</h1>
+        <h1
+          class="text-preset-1 lg:text-preset-1 group-hover:text-mustard-yellow text-[20px] transition-colors"
+        >
+          HTML & CSS foundations
+        </h1>
 
-				<p class="text-preset-3 lg:text-preset-2 text-gray-500">
-					These languages are the backbone of every website, defining structure,
-					content, and presentation.
-				</p>
-			</main>
+        <p class="text-preset-3 lg:text-preset-2 text-gray-500">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </main>
 
-			<footer class="inline-flex items-center gap-3">
-				<Image src={userImage} class="h-8 w-8" alt="Image of Greg Hopper" />
-				<h2 class="text-preset-3-bold">Greg Hopper</h2>
-			</footer>
-		</section>
-	</main>
+      <footer class="inline-flex items-center gap-3">
+        <Image src={userImage} class="h-8 w-8" alt="Image of Greg Hopper" />
+        <h2 class="text-preset-3-bold">Greg Hopper</h2>
+      </footer>
+    </section>
+  </main>
 </Layout>
 
 <style>
-	#blog-preview-card {
-		-webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-		-moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-		box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-	}
+  #blog-preview-card {
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  }
 </style>
