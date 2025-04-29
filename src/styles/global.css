@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-figtree: "Figtree", "sans-serif";
+
+  --color-mustard-yellow: hsl(47, 88%, 63%);
+}
+
+@layer components {
+  .text-preset-1 {
+    @apply text-[24px] font-extrabold leading-[150%] tracking-normal;
+  }
+
+  .text-preset-2 {
+    @apply text-[16px] font-medium leading-[150%] tracking-normal;
+  }
+
+  .text-preset-3 {
+    @apply text-[14px] font-medium leading-[150%] tracking-normal;
+  }
+
+  .text-preset-3-bold {
+    @apply text-[14px] font-extrabold leading-[150%] tracking-normal;
+  }
+}
